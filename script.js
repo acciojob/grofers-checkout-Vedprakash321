@@ -14,6 +14,7 @@ const getSum = () => {
   
   // Create a new row for total price
   const newRow = document.createElement('tr');
+	newRow.id="ans";
   const itemNameCell = document.createElement('td');
   itemNameCell.textContent = 'Total Price';
   newRow.appendChild(itemNameCell);
