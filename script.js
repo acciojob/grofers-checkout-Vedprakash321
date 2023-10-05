@@ -15,6 +15,7 @@ const getSum = () => {
 
     // Create a new row for total price
     const totalRow = document.createElement("tr");
+	totalRow.id="ans";
     const totalCell = document.createElement("td");
 
     // Set the colspan attribute to span the entire row
